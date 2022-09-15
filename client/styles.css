@@ -1,0 +1,78 @@
+body,
+input {
+  font-family: 'Avenir Next';
+}
+
+.app {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.main {
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.main #header {
+  text-align: center;
+}
+
+.scoreCardContainer {
+  border: 1px solid red;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.scoreCardCreator {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.scoreCardCreator form {
+  display: flex;
+  flex-direction: column;
+}
+.scoreCardCreator form label {
+  margin-right: 5px;
+}
+
+.scoreCardDis {
+  border-radius: 5px;
+  border: 1px solid green;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+.score table,
+th,
+td {
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.score td {
+  text-align: center;
+  min-width: 40px;
+}
+
+.score table {
+  border: 1px solid orange;
+  margin: 10px;
+}
+
+.playerTableContainer {
+  border: 1px solid red;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.playerTableCreator {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
